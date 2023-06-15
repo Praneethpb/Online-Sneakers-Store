@@ -131,7 +131,7 @@ html {
     position: absolute;
     top: 0px;
     left: 0px;
-    background: url('../shoes1.jpg') no-repeat center center/cover;
+    background: url('../img/shoes1.jpg') no-repeat center center/cover;
     width: 100%;
     height: 100%;
     opacity: 0.5;
@@ -204,7 +204,7 @@ html {
 #client-section::before {
     content: "";
     position: absolute;
-    background: url('../running-bg.webp') no-repeat center center/cover;
+    background: url('../img/running-bg.webp') no-repeat center center/cover;
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -262,7 +262,7 @@ html {
     height: 100%;
     z-index: -1;
     opacity: 0.7;
-    background: url('../contact-bg.webp') no-repeat center center/cover;
+    background: url('../img/contact-bg.webp') no-repeat center center/cover;
     /* filter: invert(100%); */
 
 
