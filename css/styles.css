@@ -1,0 +1,395 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(194, 193, 193); */
+    /* opacity: 0; */
+    /* color: white;  */
+    /* z-index: 1; */
+    
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+/* Navigation Bar decorations */
+#navbar {
+    display: flex;
+    align-items: center;
+
+
+
+
+}
+
+
+/* Navigation Bar: logo and image  */
+#logo {
+    margin: 2px 30px;
+
+}
+
+
+#logo img {
+    /* border: 3px solid red; */
+    width: 60px;
+    height: 60px;
+    border-radius: 120px;
+    /* filter: invert(100); */
+    margin: 8px 5px;
+
+
+}
+
+
+/* Navigation Bar: LIST Styling  */
+#navbar {
+    position: relative;
+}
+
+
+#navbar ul {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+/* navbar background image */
+#navbar::before {
+    content: "";
+    background-color: #646E78;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 90%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+
+}
+
+
+
+
+#navbar ul li {
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    /* border: 3px solid green; */
+}
+
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 10px 20px;
+    /* border: 3px solid red; */
+    border-radius: 4px;
+    /* margin: 5px 5px; */
+    text-decoration: none;
+    transition: background-color;
+    transition-duration: 0.2s;
+
+    font-size: 1.2rem;
+
+
+
+}
+
+
+#navbar ul li a:hover {
+    color: rgb(25, 19, 19);
+    background-color: rgb(254, 247, 247);
+
+}
+
+
+/* HOME SECTION */
+#home {
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* padding: 5px 150px; */
+    padding: 73px 150px;
+    justify-content: center;
+    align-items: center;
+    height: 545px;
+
+}
+
+
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url('../shoes1.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+
+
+
+}
+
+
+
+/* Services Container */
+/* #services-container h1 h-primary center{
+    margin: 5px 5px 5px 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+} */
+
+
+
+#services {
+    /* border: 3px solid green; */
+
+    display: flex;
+    margin: -10px 5px 5px 5px;
+
+
+
+
+}
+
+
+#services .box {
+    border: 3px solid rgb(12, 12, 12);
+    margin: 5px 8px;
+    padding: 20px;
+    border-radius: 23px;
+    background-color: rgb(210, 206, 206);
+    
+
+
+
+
+}
+
+
+#services .box img {
+    display: block;
+    width: 400px;
+    height: 285px;
+    margin: auto;
+    border-radius: 5px;
+
+}
+
+#services .box p {
+    font-family: 'Roboto Condensed', sans-serif;
+
+    
+
+}
+
+
+
+/* CLIENTS SECTION */
+#client-section {
+    position: relative;
+}   
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    background: url('../running-bg.webp') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+
+
+
+}
+
+
+#client-section .h-primary {
+    /* color: #ff0054; */
+}
+
+
+
+#clients {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 3px solid red; */
+}
+
+#clients .client-item {
+    /* border: 3px solid red; */
+    padding: 20px;
+    /* margin: 40px; */
+    /* width: 100px;
+    height: 100px; */
+}
+
+#clients .client-item img {
+    /* border: 3px solid green; */
+    width: 150px;
+    height: 150px; 
+    border-radius: 10px;
+    /* filter: invert(100%); */
+
+    
+}
+
+
+
+/* Contact Us Section */
+#contact {
+    /* margin: 10px 10px; */
+    position: relative;
+}
+
+
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('../contact-bg.webp') no-repeat center center/cover;
+    /* filter: invert(100%); */
+
+
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+
+}
+
+#contact-box input, 
+#contact-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 17px;
+} 
+
+
+
+#contact-box form {
+    width: 50%;
+
+}
+
+#contact-box label {
+    font-size: 20px;
+}
+
+
+
+/* Footer Section */
+footer {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Utility classes */
+
+#home .h-primary {
+    width: 1250px;    
+    color: #df007e;
+    
+}
+
+.services-container .h-primary {
+    margin: 15px 0px 0px 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+}
+
+.h-primary {
+    /* border: 3px solid red; */
+    font-size: 4.5rem;
+    padding: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #df007e;
+    /* color: white; */
+    
+}
+
+.h-secondary {
+    font-size: 2.5rem;
+    padding: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+
+#home h1 {
+    /* color:white; */
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    /* height: 100px; */
+    /* border: 3px solid red; */
+    margin: 57px 10px;
+
+
+}
+
+#home p {
+    /* color:white; */
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 3px 0px;
+
+
+
+}
+
+
+.btn {
+    padding: 5px 25px;
+    margin: 48px 5px;
+    border: 3px solid gray;
+    color: red;
+    background-color: rgba(229, 229, 229, 0.663);
+    border-radius: 17px;
+    font-size: 2rem;
+    cursor: pointer;
+
+
+
+
+
+
+}
