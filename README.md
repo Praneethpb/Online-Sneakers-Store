@@ -1,5 +1,7 @@
 # Online-Sneakers-Store
 
+NOTE: Zoom Out your webpage to 90% for best results.
+
 Link To My Website - https://praneethpb.github.io/Online-Sneakers-Store/
 
   A responsive website named Sneakers.com has been developed. The website aims to attract customers by displaying and offering trending sneakers for sale. HTML and CSS were utilized in building the website's design, functionality and the website is fully responsive.
